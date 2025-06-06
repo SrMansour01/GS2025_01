@@ -1,4 +1,4 @@
-🤖 RoboSensor Classifier
+### 🤖 RoboSensor Classifier
 Este projeto simula dados de sensores ambientais e utiliza uma rede neural para classificar situações como "nada", "vítima" ou "perigo", com base nos dados simulados. Ele pode ser usado como base para sistemas embarcados em robôs de busca e resgate.
 
 📦 Requisitos
@@ -8,7 +8,7 @@ Instale as dependências com:
 pip install numpy pandas matplotlib seaborn scikit-learn keras tensorflow
 ```
 
-📋 Funcionalidades
+### 📋 Funcionalidades
 Geração de dados sintéticos simulando sensores (temperatura, som, gás, etc).
 
 Visualização gráfica das correlações entre sensores.
@@ -19,7 +19,7 @@ Avaliação com matriz de confusão.
 
 Simulação de decisões baseadas nas previsões do modelo.
 
-🧠 Tecnologias utilizadas
+### 🧠 Tecnologias utilizadas
 - NumPy, Pandas – manipulação de dados
 
 - Matplotlib, Seaborn – visualização
@@ -28,7 +28,7 @@ Simulação de decisões baseadas nas previsões do modelo.
 
 - Keras (com TensorFlow) – construção e treino do modelo
 
-🚀 Como executar
+### 🚀 Como executar
 Clone o repositório:
 
 ```bash
@@ -51,7 +51,7 @@ O código irá:
 
 - Simular decisões baseadas nas primeiras 10 amostras.
 
-📊 Exemplo de saída
+### 📊 Exemplo de saída
 ```sql
 Amostra 01: Real = nada    | Decisão → 📡 Continuar mapeando terreno
 Amostra 02: Real = vitima  | Decisão → 🚑 Localizar vítima e entregar item
@@ -60,13 +60,13 @@ Amostra 03: Real = perigo  | Decisão → ⚠️ Emitir alerta e fugir da área
 
 ```
 
-📁 Estrutura do projeto
+### 📁 Estrutura do projeto
 ```bash
 ├── main.py   # Código principal
 ├── modelo_robosensor.h5       # (Gerado após o treinamento)
 └── README.md                  # Este arquivo
 ```
-📌 Observações
+### 📌 Observações
 O modelo é salvo como modelo_robosensor.h5. Na próxima execução, ele será carregado em vez de re-treinado.
 
 A função simular_decisao() pode ser adaptada para uso em um robô real com sensores físicos.
