@@ -1,6 +1,8 @@
 ### 🤖 RoboSensor Classifier
 Este projeto simula dados de sensores ambientais e utiliza uma rede neural para classificar situações como "nada", "vítima" ou "perigo", com base nos dados simulados. Ele pode ser usado como base para sistemas embarcados em robôs de busca e resgate.
 
+✅ Requer Python 3.10 para garantir compatibilidade com todas as bibliotecas utilizadas.
+
 📦 Requisitos
 Instale as dependências com:
 
